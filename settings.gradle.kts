@@ -1,3 +1,3 @@
-rootProject.name = "money-tracker"
+rootProject.name = "rvr-money-tracker"
 
 include(":frontend", ":server")
