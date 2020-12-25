@@ -1,14 +1,7 @@
-/**
- * Special axios instance with token passed
- * @author victor
- * @date 11.12.2019
- * @project: auth-buddy
- */
-
 import axios from 'axios';
 
 const authInstance = axios.create({
-	baseURL: '/gateway-service/'
+	baseURL: '/api'
 });
 
 authInstance.interceptors.request.use(config => {

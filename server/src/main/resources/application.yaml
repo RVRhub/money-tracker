@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  error:
+    whitelabel:
+      enabled: true
+  servlet:
+      context-path: /
+
+logging:
+  level:
+    org.springframework.web: INFO
+    org.springframework.cloud.netflix: DEBUG
+    com.rvr.money.tracker: TRACE
+    org.springframework.data.elasticsearch: DEBUG

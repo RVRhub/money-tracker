@@ -17,9 +17,12 @@ import Cart from '@/components/Cart';
 
 export default {
 	name: 'App',
-
 	components: {
 		Cart
+	},
+	created()
+	{
+		this.$apm.setInitialPageLoadName('App Window');
 	},
 	data: () => ({
 		search: '',
